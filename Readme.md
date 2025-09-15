@@ -23,23 +23,6 @@ All the operations are handled on a **single page UI** for simplicity.
 
 ---
 
-## 📂 Project Structure
-Task_Crud_Operations
-│── src
-│ ├── main
-│ │ ├── java/com/example/taskcrud
-│ │ │ ├── controller # Handles web requests
-│ │ │ ├── entity # Task model/entity
-│ │ │ ├── repository # JPA repository
-│ │ │ ├── service # Business logic
-│ │ │ └── TaskCrudApplication.java
-│ │ └── resources
-│ │ ├── templates # HTML (Thymeleaf) pages
-│ │ ├── static # CSS/JS files
-│ │ └── application.properties
-│ └── test/java/com/example/taskcrud
-│
-└── pom.xml
 
 
 
