@@ -1,26 +1,48 @@
 # Task CRUD Operations - Spring Boot
 
-A simple **Spring Boot application** demonstrating **CRUD (Create, Read, Update, Delete)** operations for managing tasks.  
-This project is built with **Spring Boot**, **Spring Data JPA**, and **MySQL** (or H2 for testing).
+This is a **Spring Boot web application** that performs basic **CRUD operations** (Add, Update, Delete, and View) for managing tasks.  
+All the operations are handled on a **single page UI** for simplicity.
 
 ---
 
 ## 🚀 Features
-- Create a new task  
-- Retrieve all tasks or a specific task by ID  
-- Update an existing task  
-- Delete a task by ID  
-- RESTful APIs with JSON responses  
+- Add a new task  
+- Update existing task  
+- Delete task  
+- View all tasks on a single page  
 
 ---
 
 ## 🛠️ Tech Stack
-- **Java** (JDK 17 or compatible)
-- **Spring Boot** (v3+)
-- **Spring Data JPA**
-- **MySQL / H2 Database**
-- **Maven**
+- **Java** (JDK 17 or compatible)  
+- **Spring Boot**  
+- **Spring MVC**  
+- **Spring Data JPA**  
+- **MySQL Database**  
+- **HTML** for front-end  
 
 ---
 
 ## 📂 Project Structure
+Task_Crud_Operations
+│── src
+│ ├── main
+│ │ ├── java/com/example/taskcrud
+│ │ │ ├── controller # Handles web requests
+│ │ │ ├── entity # Task model/entity
+│ │ │ ├── repository # JPA repository
+│ │ │ ├── service # Business logic
+│ │ │ └── TaskCrudApplication.java
+│ │ └── resources
+│ │ ├── templates # HTML (Thymeleaf) pages
+│ │ ├── static # CSS/JS files
+│ │ └── application.properties
+│ └── test/java/com/example/taskcrud
+│
+└── pom.xml
+
+
+
+##👨‍💻 Author
+
+Deepak Vinay
