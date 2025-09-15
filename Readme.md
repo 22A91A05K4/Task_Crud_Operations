@@ -26,6 +26,10 @@ All the operations are handled on a **single page UI** for simplicity.
 
 
 
-##👨‍💻 Author
+## 👨‍💻 Author
 
-Deepak Vinay
+**Deepak Vinay**  
+- GitHub: [22A91A05K4](https://github.com/22A91A05K4)  
+- LinkedIn: [Deepak Vinay](https://www.linkedin.com/in/deepak-vinay-052176258/)  
+
+
